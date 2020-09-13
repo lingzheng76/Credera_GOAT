@@ -1,31 +1,56 @@
 <html>
-  <link rel="stylesheet" href="style.css" />
-  
+<link rel="stylesheet" href="style.css" />
 
 <head>
   <title>Queue</title>
   <link type="text/css" rel="stylesheet" href="stylesheet.css" />
   <meta name="viewport" content="width=device-width">
- 
+
 </head>
 
 <body ontouchstart="">
-  <h1>Waiting? Let's get to know you better!</h1>
+  <h3 style="color:grey; text-align: right; text-decoration: underline;">Position: 3 | Estimated Wait time: 5-10 min | Company: Credera</h3>
+  <h1 style="color:grey">Waiting? Let's get to know you better!</h1>
+  <div class="row">
+    <h2></h2>
 
-  <h2></h2>
+    <p id="image"></p>
+    <div class="column">
+      <ul>
+        <li><img id="img0" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/relieved-face_1f60c.png" style="width:100px;height:100px;display: block;margin-left: auto;margin-right: auto;"></li>
+        <li><button class="submit-answer" id="0"></button></li>
+        <li><img id="img1" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/smiling-face-with-sunglasses_1f60e.png" style="width:100px;height:100px;display: block;margin-left: auto;margin-right: auto;"></li>
+        <li><button class="submit-answer" id="1"></button></li>
+      </ul>
+    </div>
 
-  <p id="image"></p>
-  
-  <ul>
-    <li><button class="submit-answer" id="0"></button></li>
-    <li><button class="submit-answer" id="1"></button></li>
-    <li><button class="submit-answer" id="2"></button></li>
-    <li><button class="submit-answer" id="3"></button></li>
-  </ul>
-
+    <div class="column">
+      <ul>
+        <li><img id="img2" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/grinning-face-with-star-eyes_1f929.png" style="width:100px;height:100px;display: block;margin-left: auto;margin-right: auto;"></li>
+        <li><button class="submit-answer" id="2"></button></li>
+        <li><img id="img3" src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/microsoft/209/face-with-uneven-eyes-and-wavy-mouth_1f974.png" style="width:100px;height:100px;display: block;margin-left: auto;margin-right: auto;"></li>
+        <li><button class="submit-answer" id="3"></button></li>
+      </ul>
+    </div>
+    <div>
+      <h3 id="fairtext" style="color: black; text-align: center; visibility: hidden">Fairmoji Progress:</h3>
+    </div>
+    <div>
+      <li><img id="fairmoji" src="sallymoji-1.png" style="width:200px;height:200px;display: block;margin-left: auto;margin-right: auto; visibility: hidden;"></img></li>
+    </div>
+  </div>
   <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
   <script src="script.js"></script>
 
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="/__/firebase/7.20.0/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="/__/firebase/7.20.0/firebase-analytics.js"></script>
+
+  <!-- Initialize Firebase -->
+  <script src="/__/firebase/init.js"></script>
 </body>
 
 </html>

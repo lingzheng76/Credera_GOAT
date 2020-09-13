@@ -1,8 +1,8 @@
 body {
-	color: #413D3D;
+	color: #F68743;
 	font-family: 'Oswald', sans-serif;
 	width: 95%;
-  text-align: center;
+  text-align: left;
 	margin: 0 auto;
 }
 
@@ -17,7 +17,7 @@ body {
 
 ul {
    list-style-type:none;
-  margin: 0 auto;
+   margin: 0 auto;
    list-style:none;
    padding:0;
 }
@@ -27,27 +27,34 @@ li {
 }
 
 button {
-      width: 220px;
+      width: 150px;
       font-size: 20px;
       margin:12px 0;
       padding: 10px 0;
-      background-color: #516363;
+      background-color: #77A6AB;
       color: #fff;
       font-family: 'Oswald', sans-serif;
 	  -webkit-border-radius: 1000px;
       border-radius: 1000px;
       outline: none;
       border: none;
+      border-radius: 8px;
 }
 
 button:active {
-      background-color: #95a5a6;
+      background-color: #77A6AB;
 }
 
 .clickStyle {
-      background-color: #2ecc71;
+      background-color: #C8D1B0;
 }
 
 img {
-	border-radius: 5px;
+  width = 100px;
+  height = 100px;
+}
+
+.column{
+  float: left;
+  padding: 10px;
 }
