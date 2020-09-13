@@ -71,7 +71,7 @@ var allQuestions = [
     choices: ["Llama", "Sloth", "Turtle", "Crocodile"]
   },
   {
-    question: "Which one is your favoraite food?",
+    question: "Which one is your favorite food?",
     choices: ["Hamburger", "Ice cream", "Burrito", "Salad"]
   }
 ];
@@ -125,6 +125,7 @@ function end() {
   document.getElementById("fairmoji").src = resultimg[3];
 
   setTimeout(redirect, 3000);
+
 }
 
 function redirect() {
@@ -134,7 +135,7 @@ function redirect() {
     )
   ) {
     window.location =
-      "https://teams.microsoft.com/dl/launcher/launcher.html?type=meetup-join&deeplinkId=05bc4c19-6ede-485c-96b7-91a448037aac&directDl=true&msLaunch=true&enableMobilePage=true&url=%2F_%23%2Fl%2Fmeetup-join%2F19%3Ameeting_NTcwODY2NDgtNDljMy00M2E3LTkwNmYtY2NmYjc2Yzg3MDMx@thread.v2%2F0%3Fcontext%3D%257b%2522Tid%2522%253a%2522780a38ce-43be-4c57-ad79-22391ed2d333%2522%252c%2522Oid%2522%253a%25227febfae8-bc72-4f30-8fa6-34dec5dcba86%2522%257d%26anon%3Dtrue&suppressPrompt=true";
+      "https://illinois.zoom.us/j/7864448219?pwd=SFpvMEdxVTlYV1orU3J1VWlEUVE1QT09";
   } else {
     alert("You exited the line!");
   }
